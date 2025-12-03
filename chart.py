@@ -48,8 +48,7 @@ plt.ylabel("Day of Week", fontsize=14)
 # -----------------------------
 # 5. Save Output
 # -----------------------------
-#plt.savefig("chart.png", dpi=64, bbox_inches='tight')
-plt.show()
+plt.savefig("chart.png", dpi=64, bbox_inches='tight')
 plt.close()
 
 print("Heatmap saved as chart.png")
